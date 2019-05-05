@@ -5,7 +5,7 @@ node_modules/
 master
 node_modules
 .env
-./build
+/build
 ./assets
 /data
 .DS_Store
