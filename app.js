@@ -5,7 +5,7 @@ const bodyParser = require('body-parser')
 const path = require('path')
 const cookieParser = require('cookie-parser')
 const passport = require('passport')
-const config = require('./config')
+// const config = require('./config')
 
 const CORS = require('cors')
 
