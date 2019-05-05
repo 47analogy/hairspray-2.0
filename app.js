@@ -14,7 +14,7 @@ const port = process.env.PORT || 5000
 const db = process.env.MONGODB_URI || 'mongodb://localhost:27017/hairspray'
 const routes = require('./routes/routes')
 
-app.use(express.static(path.join(__dirname, '../hairspray-app/build')))
+app.use(express.static(path.join(__dirname, './hairspray-app/build')))
 
 // connect to database
 mongoose
