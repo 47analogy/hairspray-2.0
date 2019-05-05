@@ -31,7 +31,7 @@ app.use(CORS())
 const whitelist = [
   'http://localhost:5000',
   // REACT_WHITELIST,
-  'https://obscure-island-58835.herokuapp.com/'
+  'https://pacific-basin-16363.herokuapp.com/'
 ]
 
 app.use(
