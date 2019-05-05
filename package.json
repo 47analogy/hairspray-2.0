@@ -1,18 +1,19 @@
 {
 	"name": "hairspray",
-	"version": "1.0.0",
-	"description": "CS7 Capstone Project",
+	"version": "2.0.0",
+	"description": "Additional Development - CS7 Team Capstone Project",
 	"main": "app.js",
 	"directories": {
 		"test": "test"
 	},
 	"scripts": {
-		"start": "nodemon ./server/app.js",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start": "node app.js",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Lambda-School-Labs/hairspray.git"
+		"url": "git+https://github.com/47analogy/hairspray-2.0"
 	},
 	"author": "",
 	"license": "ISC",
@@ -54,5 +55,8 @@
 		"reactstrap": "^6.1.0",
 		"stripe": "^6.1.1",
 		"twilio": "^3.17.3"
+	},
+	"engines": {
+		"node": "10.11.0"
 	}
 }
