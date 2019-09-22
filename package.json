@@ -18,9 +18,9 @@
 	"author": "",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/Lambda-School-Labs/hairspray/issues"
+		"url": "https://github.com/47analogy/hairspray-2.0"
 	},
-	"homepage": "https://github.com/Lambda-School-Labs/hairspray#readme",
+	"homepage": "https://github.com/47analogy/hairspray-2.0#readme",
 	"dependencies": {
 		"ajv": "^6.5.1",
 		"bcrypt": "^3.0.6",
