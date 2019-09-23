@@ -2,10 +2,6 @@
 
 CS7 Capstone Project
 
-## Heroku link
-
-(https://pacific-basin-16363.herokuapp.com/api)
-
 # Routes
 
 ### Logging in
