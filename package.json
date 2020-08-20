@@ -23,7 +23,7 @@
 	"homepage": "https://github.com/47analogy/hairspray-2.0#readme",
 	"dependencies": {
 		"ajv": "^6.5.1",
-		"bcrypt": "^3.0.6",
+		"bcrypt": "^5.0.0",
 		"bcrypt-nodejs": "0.0.3",
 		"body-parser": "^1.18.3",
 		"bootstrap": "^4.1.1",
